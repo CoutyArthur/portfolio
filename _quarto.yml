@@ -9,6 +9,8 @@ website:
         text: Accueil
       - href: about.qmd
         text: À propos
+      - href: scene3D.qmd
+        text: Scene3D
 format:
   html:
     theme: cosmo
