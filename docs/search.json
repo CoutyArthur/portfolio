@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "mon-site/index.html",
+    "href": "mon-site/index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Accueil",
+    "section": "",
+    "text": "Bonjour ! Je suis [Votre Nom], [votre profession ou domaine].\n\n\nDécrivez ici vos compétences principales, vos projets ou ce qui vous passionne.\n\n\n\n\n\n\nProjet\nDescription\nLien\n\n\n\n\nProjet A\nBrève description\nVoir →\n\n\nProjet B\nBrève description\nVoir →\n\n\nProjet C\nBrève description\nVoir →\n\n\n\n\n\n\n\n🛠️ Compétence 1\n📊 Compétence 2\n💡 Compétence 3\n\n\nDernière mise à jour : r format(Sys.Date(), \"%B %Y\")"
+  },
+  {
+    "objectID": "index.html#ce-que-je-fais",
+    "href": "index.html#ce-que-je-fais",
+    "title": "Accueil",
+    "section": "",
+    "text": "Décrivez ici vos compétences principales, vos projets ou ce qui vous passionne."
+  },
+  {
+    "objectID": "index.html#projets-récents",
+    "href": "index.html#projets-récents",
+    "title": "Accueil",
+    "section": "",
+    "text": "Projet\nDescription\nLien\n\n\n\n\nProjet A\nBrève description\nVoir →\n\n\nProjet B\nBrève description\nVoir →\n\n\nProjet C\nBrève description\nVoir →"
+  },
+  {
+    "objectID": "index.html#compétences",
+    "href": "index.html#compétences",
+    "title": "Accueil",
+    "section": "",
+    "text": "🛠️ Compétence 1\n📊 Compétence 2\n💡 Compétence 3\n\n\nDernière mise à jour : r format(Sys.Date(), \"%B %Y\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "À propos",
+    "section": "",
+    "text": "Présentez-vous ici : votre parcours, votre formation, vos centres d’intérêt professionnels et personnels."
+  },
+  {
+    "objectID": "about.html#qui-suis-je",
+    "href": "about.html#qui-suis-je",
+    "title": "À propos",
+    "section": "",
+    "text": "Présentez-vous ici : votre parcours, votre formation, vos centres d’intérêt professionnels et personnels."
+  },
+  {
+    "objectID": "about.html#formation",
+    "href": "about.html#formation",
+    "title": "À propos",
+    "section": "Formation",
+    "text": "Formation\n\n🎓 Diplôme — Université / École, Année\n🎓 Diplôme — Université / École, Année"
+  },
+  {
+    "objectID": "about.html#expériences",
+    "href": "about.html#expériences",
+    "title": "À propos",
+    "section": "Expériences",
+    "text": "Expériences\n\nPoste actuel — Entreprise (Année – présent)\nDescription de votre rôle, responsabilités et réalisations.\n\n\nPoste précédent — Entreprise (Année – Année)\nDescription de votre rôle, responsabilités et réalisations."
+  },
+  {
+    "objectID": "about.html#me-contacter",
+    "href": "about.html#me-contacter",
+    "title": "À propos",
+    "section": "Me contacter",
+    "text": "Me contacter\n\n📧 Email : votre@email.com\n💼 LinkedIn : linkedin.com/in/votre-profil\n🐙 GitHub : github.com/votre-pseudo"
+  },
+  {
+    "objectID": "mon-site/about.html",
+    "href": "mon-site/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
