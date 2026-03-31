@@ -75,33 +75,5 @@
     "title": "Accueil",
     "section": "",
     "text": "🛠️ Compétence 1\n📊 Compétence 2\n💡 Compétence 3\n\n\nDernière mise à jour : r format(Sys.Date(), \"%B %Y\")"
-  },
-  {
-    "objectID": "mon-site/scene3D.html",
-    "href": "mon-site/scene3D.html",
-    "title": "Scène 3D",
-    "section": "",
-    "text": "Une sphère géométrique animée avec un champ de particules — cliquez-glissez pour orbiter, scroll pour zoomer.\n\nTHREE.JS · WebGL 🖱 drag · scroll\n\n\n\n\n\nCette visualisation utilise Three.js (r160) chargé via ESM import map"
-  },
-  {
-    "objectID": "mon-site/scene3D.html#scène-interactive-three.js",
-    "href": "mon-site/scene3D.html#scène-interactive-three.js",
-    "title": "Scène 3D",
-    "section": "",
-    "text": "Une sphère géométrique animée avec un champ de particules — cliquez-glissez pour orbiter, scroll pour zoomer.\n\nTHREE.JS · WebGL 🖱 drag · scroll\n\n\n\n\n\nCette visualisation utilise Three.js (r160) chargé via ESM import map"
-  },
-  {
-    "objectID": "mon-site/about.html",
-    "href": "mon-site/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "mon-site/index.html",
-    "href": "mon-site/index.html",
-    "title": "portfolio",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
