@@ -11,6 +11,7 @@ website:
         text: À propos
       - href: scene3D.qmd
         text: Scene3D
+  search: false
 format:
   html:
     theme: cosmo

@@ -3,7 +3,7 @@ title: "Scène 3D"
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: style.css
     include-in-header:
       text: |
         <style>
@@ -56,7 +56,7 @@ Une sphère géométrique animée avec un champ de particules — cliquez-glisse
 <script type="importmap">
 {
   "imports": {
-    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
     "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
   }
 }
