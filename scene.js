@@ -27,7 +27,7 @@ controls.autoRotateSpeed = 0.5;
 // --- Chargement du modèle GLTF ---
 
 const loader = new GLTFLoader();
-loader.load('poulpe/poulpi.glb', (gltf) => {
+loader.load('./poulpe/poulpi.glb', (gltf) => {
     let octopus = gltf.scene;
     octopus.scale.setScalar(0.1); 
     octopus.rotation.set(0, -Math.PI/2, 0);

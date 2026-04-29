@@ -1,7 +1,8 @@
 project:
   type: website
   resources:
-    - "poulpe/"
+    - poulpe/
+    - "*.glb"
     - "scene.js"
   output-dir: docs
 website:
