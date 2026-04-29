@@ -45,7 +45,7 @@ format:
 
 ## Scène interactive Three.js
 
-Cette scène représente une pieuvre sur son rocher imprimé en 3D, puis remodéliser en utilisant de la photogrammétrie via RealityScan — cliquez-glissez pour orbiter, scroll pour zoomer.
+Cette scène représente une pieuvre sur son rocher imprimé en 3D, puis remodéliser en utilisant de la photogrammétrie via RealityScan — cliquez-glissez pour orbiter, scroll pour zoomer. (Attendre 10 seconde que l'objet se charge)
 
 ::: {#scene-container}
 <span class="scene-label">THREE.JS · WebGL</span>
