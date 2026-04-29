@@ -45,7 +45,7 @@ format:
 
 ## Scène interactive Three.js
 
-Une sphère géométrique animée avec un champ de particules — cliquez-glissez pour orbiter, scroll pour zoomer.
+Cette scène représente une pieuvre sur son rocher imprimé en 3D, puis remodéliser en utilisant de la photogrammétrie via RealityScan — cliquez-glissez pour orbiter, scroll pour zoomer.
 
 ::: {#scene-container}
 <span class="scene-label">THREE.JS · WebGL</span>
@@ -68,4 +68,4 @@ Une sphère géométrique animée avec un champ de particules — cliquez-glisse
 
 ### À propos de cette scène
 
-Cette visualisation utilise **Three.js** (r160) chargé via ESM import map
+Cette visualisation utilise **Three.js**

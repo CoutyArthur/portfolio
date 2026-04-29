@@ -2,27 +2,13 @@
 title: "À propos"
 ---
 
-## Qui suis-je ?
-
-Présentez-vous ici : votre parcours, votre formation, vos centres d'intérêt professionnels et personnels.
 
 ## Formation
 
-- 🎓 **Diplôme** — Université / École, Année
-- 🎓 **Diplôme** — Université / École, Année
-
-## Expériences
-
-### Poste actuel — Entreprise (Année – présent)
-
-Description de votre rôle, responsabilités et réalisations.
-
-### Poste précédent — Entreprise (Année – Année)
-
-Description de votre rôle, responsabilités et réalisations.
+- 🎓 **Licence d'informatique** — Université de Limoges, 2023
+- 🎓 **1ère année en Master d'informatique ghraphique** — Université de Limoges, Master ISICG, 2026
 
 ## Me contacter
 
-- 📧 Email : [votre@email.com](mailto:votre@email.com)
-- 💼 LinkedIn : [linkedin.com/in/votre-profil](https://linkedin.com)
-- 🐙 GitHub : [github.com/votre-pseudo](https://github.com)
+- 📧 Email : [arth.cty@gmail.com](mailto:arth.cty@gmail.com)
+- 🐙 GitHub : [github.com/CoutyArthur](https://github.com)

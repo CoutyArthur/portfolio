@@ -4,7 +4,7 @@ title: "Accueil"
 
 # Bienvenue sur mon portfolio 👋
 
-Bonjour ! Je suis **[Votre Nom]**, [votre profession ou domaine].
+Bonjour ! Je suis Arthur Couty, étudiant en informatique graphique.
 
 ## Ce que je fais
 
@@ -12,18 +12,15 @@ Décrivez ici vos compétences principales, vos projets ou ce qui vous passionne
 
 ## Projets récents
 
-| Projet | Description | Lien |
-|--------|-------------|------|
-| Projet A | Brève description | [Voir →](#) |
-| Projet B | Brève description | [Voir →](#) |
-| Projet C | Brève description | [Voir →](#) |
+| Projet | Description | 
+|--------|-------------|
+| Moteur3D | création d'un moteur 3D temps réel par rastérisation |
+| Moteur de lancer de Rayon | création d'un moteur non temps réel par lancer de rayon |
 
 ## Compétences
 
-- 🛠️ Compétence 1
-- 📊 Compétence 2
-- 💡 Compétence 3
+- utilisation d'OpenGl
+- Connaissance sur le lancer de rayon
+- Connaissance sur le rendu inverse
 
 ---
-
-*Dernière mise à jour : `r format(Sys.Date(), "%B %Y")`*

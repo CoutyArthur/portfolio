@@ -21,19 +21,24 @@ camera.position.set(0, 1, 5);
 // --- Controls ---
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
-controls.autoRotate = true;
+controls.autoRotate = false;
 controls.autoRotateSpeed = 0.5;
 
 // --- Chargement du modèle GLTF ---
+
 const loader = new GLTFLoader();
-loader.load('poulpe/poulpe3D.glb', (gltf) => {
-    octopus = gltf.scene;
-    
+loader.load('poulpe/poulpi.glb', (gltf) => {
+    let octopus = gltf.scene;
+    octopus.scale.setScalar(0.1); 
+    octopus.rotation.set(0, -Math.PI/2, 0);
+    octopus.position.set(octopus.position.x, octopus.position.y - 200, octopus.position.z)
+
     // Centrer le modèle automatiquement
     const box = new THREE.Box3().setFromObject(octopus);
     const center = box.getCenter(new THREE.Vector3());
     octopus.position.sub(center); 
-    
+    octopus.position.set(octopus.position.x, octopus.position.y + 0.21, octopus.position.z)
+
     scene.add(octopus);
 }, undefined, (error) => {
     console.error("Erreur lors du chargement :", error);
@@ -41,7 +46,7 @@ loader.load('poulpe/poulpe3D.glb', (gltf) => {
 
 
 
-// // --- Icosahedron principal ---
+// --- Icosahedron principal ---
 // const geoSphere = new THREE.IcosahedronGeometry(1.4, 4);
 // const matWire = new THREE.MeshStandardMaterial({
 //   color: 0x4488ff,
@@ -104,20 +109,22 @@ loader.load('poulpe/poulpe3D.glb', (gltf) => {
 // scene.add(particles);
 
 //grille
-const gridHelper = new THREE.GridHelper( 10, 10 );
+const gridHelper = new THREE.GridHelper( 100, 100 );
+gridHelper.position.y = -1;
 scene.add( gridHelper );
 
 // --- Lumières ---
-const ambientLight = new THREE.AmbientLight(0x111133, 2);
+const ambientLight = new THREE.AmbientLight(0xFFFFFF, 40);
 scene.add(ambientLight);
 
-const pointLight1 = new THREE.PointLight(0x4466ff, 60, 20);
-pointLight1.position.set(4, 4, 4);
+const pointLight1 = new THREE.PointLight(0xFFFFFF, 60, 2);
+pointLight1.position.set(0, 1, 2);
 scene.add(pointLight1);
 
-const pointLight2 = new THREE.PointLight(0x00ddcc, 30, 15);
-pointLight2.position.set(-4, -2, -3);
+const pointLight2 = new THREE.PointLight(0xFFFFFF, 60, 2);
+pointLight2.position.set(0, 1, -3);
 scene.add(pointLight2);
+
 
 // --- Resize ---
 window.addEventListener('resize', () => {
@@ -128,11 +135,11 @@ window.addEventListener('resize', () => {
   renderer.setSize(w, h);
 });
 
-// // --- Animation ---
-// const clock = new THREE.Clock();
-// function animate() {
-//   requestAnimationFrame(animate);
-//   const t = clock.getElapsedTime();
+// //--- Animation ---
+const clock = new THREE.Clock();
+function animate() {
+   requestAnimationFrame(animate);
+   const t = clock.getElapsedTime();
 
 //   meshSphere.rotation.y = t * 0.12;
 //   meshSphere.rotation.x = Math.sin(t * 0.18) * 0.25;
@@ -144,11 +151,12 @@ window.addEventListener('resize', () => {
 //   particles.rotation.y = t * 0.025;
 //   particles.rotation.x = Math.sin(t * 0.05) * 0.08;
 
-//   // pulsation légère
+//   pulsation légère
 //   const pulse = 1 + Math.sin(t * 1.8) * 0.015;
 //   meshSphere.scale.setScalar(pulse);
 
-//   controls.update();
-//   renderer.render(scene, camera);
-// }
-// animate();
+//   
+    controls.update();
+    renderer.render(scene, camera);
+}
+ animate();
